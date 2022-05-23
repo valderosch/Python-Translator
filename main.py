@@ -161,7 +161,7 @@ def mainWindow():
 
     InputFrame = tk.Frame(mainFrame, bg = white)
     InputFrame.place(relx=0.1, rely=0.34, relwidth=0.8, relheight=0.18)
-    inputvar = tk.Entry(InputFrame, bg=blue, fg=red, font=font1)
+    inputvar = tk.Entry(InputFrame, bg=white, fg=red, font=font1)
     inputvar.place(relx=0.05, rely=0.1, relwidth=0.9, relheight=0.4)
 
     global refreshImage
@@ -176,7 +176,7 @@ def mainWindow():
     #textarea
     OutputFrame = tk.Frame(mainFrame, bg =white)
     OutputFrame.place(relx = 0.1, rely = 0.65, relwidth = 0.8, relheight = 0.18)
-    output = tk.Entry(OutputFrame, bg = blue, fg = red, font = font1)
+    output = tk.Entry(OutputFrame, bg = white, fg = red, font = font1)
     output.place(relx = 0.05, rely = 0.1, relwidth = 0.78, relheight = 0.35)
 
     def resizeOutput():
